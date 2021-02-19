@@ -6,6 +6,6 @@ const VideoList = ({ videos }) => {
   const RenderedList = videos.map(video=>{
       return <VideoItem video={video} />
   })
-  return <div>{RenderedList}</div>;
+  return <div className='ui relax devided list'>{RenderedList}</div>;
 };
 export default VideoList;
