@@ -15,7 +15,7 @@ class SearchBar extends React.Component {
       <div className=" search-bar ui segment violet inverted header">
         <form onSubmit={this.onFormSubmit} className="ui form ">
           <div className="field">
-            <label className="ui grey inverted header">Search Video in    ManiTube  </label>
+            <label className="ui grey inverted header">Search Video</label>
             <input
               type="text"
               value={this.state.term}

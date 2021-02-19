@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(216, 216, 216);
+}
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 180px;
+  z-index: 1;
+  color: rgb(221, 220, 218);
+}
